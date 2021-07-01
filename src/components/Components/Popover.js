@@ -1,6 +1,6 @@
 import React from "react";
 import { ContentBlock, ContentBlockHeader, ContentBlockBody } from "../Layout/ContentBlock";
-import { ButtonDefault } from "../Inputs/Buttons";
+import { ButtonPrimary } from "../Buttons/Buttons";
 import HeaderText from "../Components/HeaderText";
 
 export const PopoverContext = React.createContext();
@@ -224,7 +224,7 @@ export class Popover extends React.Component {
                         >
                             {screenSize < 768 && (
                                 <>
-                                    <ButtonDefault
+                                    <ButtonPrimary
                                         icon={"times"}
                                         buttonProps={{
                                             onClick: () => {
