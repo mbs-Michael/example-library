@@ -1,0 +1,11 @@
+{
+  "name": "example-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
