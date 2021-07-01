@@ -7,9 +7,11 @@ exports.default = void 0;
 
 require("core-js/modules/es.object.assign.js");
 
-var _BaseGenericInput = _interopRequireDefault(require("./BaseGenericInput"));
+var _react = _interopRequireDefault(require("react"));
 
 var _Popover = require("../Components/Popover");
+
+var _BaseGenericInput = _interopRequireDefault(require("./BaseGenericInput"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27,17 +29,17 @@ const BaseInput = _ref => {
     icon,
     helpInput
   } = _ref;
-  return /*#__PURE__*/React.createElement(_BaseGenericInput.default, {
+  return /*#__PURE__*/_react.default.createElement(_BaseGenericInput.default, {
     className: outerDivClass,
     label: label,
     helpLabel: helpLabel
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: innerDivClass
-  }, /*#__PURE__*/React.createElement(_Popover.Popover, _extends({
+  }, /*#__PURE__*/_react.default.createElement(_Popover.Popover, _extends({
     ref: popoverRef
-  }, popoverProps), /*#__PURE__*/React.createElement("input", {
+  }, popoverProps), /*#__PURE__*/_react.default.createElement("input", {
     className: "is-hidden"
-  }), /*#__PURE__*/React.createElement("input", inputProps), icon)), helpInput && /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/_react.default.createElement("input", inputProps), icon)), helpInput && /*#__PURE__*/_react.default.createElement("div", {
     className: "help"
   }, helpInput));
 };

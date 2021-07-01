@@ -1,5 +1,6 @@
-import BaseGenericInput from "./BaseGenericInput";
+import React from "react";
 import { Popover } from "../Components/Popover";
+import BaseGenericInput from "./BaseGenericInput";
 
 const BaseInput = ({
     outerDivClass,
