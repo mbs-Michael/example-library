@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _ContentBlock = require("../Layout/ContentBlock");
 
-var _Buttons = require("../Buttons/Buttons");
+var _ButtonPrimary = _interopRequireDefault(require("../Buttons/ButtonPrimary"));
 
 var _HeaderText = _interopRequireDefault(require("../Components/HeaderText"));
 
@@ -234,7 +234,7 @@ class Popover extends _react.default.Component {
     }, /*#__PURE__*/_react.default.createElement("div", {
       ref: this.popover,
       className: "popover-block is-mobile is-mobile-fullPage ".concat(position, " ").concat(this.state.isActive ? "" : "is-hidden", " is-").concat(size)
-    }, screenSize < 768 && /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Buttons.ButtonPrimary, {
+    }, screenSize < 768 && /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_ButtonPrimary.default, {
       icon: "times",
       buttonProps: {
         onClick: () => {

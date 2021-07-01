@@ -1,6 +1,6 @@
 import React from "react";
 import { ContentBlock, ContentBlockHeader, ContentBlockBody } from "../Layout/ContentBlock";
-import { ButtonPrimary } from "../Buttons/Buttons";
+import ButtonPrimary from "../Buttons/ButtonPrimary";
 import HeaderText from "../Components/HeaderText";
 
 export const PopoverContext = React.createContext();
