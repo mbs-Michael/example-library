@@ -1,3 +1,3 @@
-import TestDiv from "./components/TestDiv";
+import TestDiv from "./dist/components/TestDiv";
 
 export default TestDiv;
